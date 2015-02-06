@@ -9,7 +9,7 @@ h1,
 h2,
 h3,
 h4,
-h5, ~   
+h5,  
 h6 {
     font-family: 'Handlee', cursive;
     font-weight: 700;
@@ -17,7 +17,7 @@ h6 {
 
 .lead {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .intro-header {
@@ -25,7 +25,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url("Optimized-landscape.jpg") no-repeat center center;
+    background: url("../img/Optimized-landscape.jpg") no-repeat center center;
     background-size: cover;
 }
 
@@ -63,6 +63,11 @@ h6 {
 #typewriter{
     padding-top: 5%;
 }
+
+#rubyWeatherApp{
+    padding-top: 5%;
+}
+
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
@@ -94,21 +99,27 @@ h6 {
     letter-spacing: 2px;
 }
 
+.section-heading h3{
+    font-family: 'Handlee', cursive;
+    font-weight: 400;
+    font-size: 20px;
+}
+
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
-}
-
-.section-heading h3{
-    font-family: 'Handlee', cursive;
-    font-weight: 500;
-    font-size: 20px;
 }
 
 .content-section-b {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
+}
+
+.content-section-c{
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
 }
 
 .section-heading {
@@ -188,3 +199,6 @@ p.copyright {
     width: 150px;
 }
 
+li#socialButtons {
+margin-left: -12%;
+}

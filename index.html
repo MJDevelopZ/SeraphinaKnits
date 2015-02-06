@@ -6,13 +6,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Freelance Web Developer Portfolio">
-    <meta name="author" content="MJDesignZ">
+    <meta name="description" content="Freelance Web and Wordpress Developer Portfolio">
+    <meta name="author" content="MJDevelopz">
 
     <title>Megan Dooley-Zahr Portfolio</title>
 
-    <!--jQuery for Bootstrap-->
+    <!--jQuery for Bootstrap and JavaScript files-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -20,11 +22,11 @@
 
     <!-- My CSS -->
     <link href="css/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
-
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -48,7 +50,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">MJDesignZ</a>
+                <a class="navbar-brand" href="#">MJDevelopZ</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -61,6 +63,9 @@
                     </li>
                     <li>
                         <a href="#services" class="smoothScroll">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="smoothScroll" id="portfolioHidden">Portfolio</a>
                     </li>
                     <li>
                         <a href="#contact" class="smoothScroll">Contact</a>
@@ -83,20 +88,11 @@
 
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Megan Zahr</h1>
-                        <h3>Web &amp; Wordpress Developer</h3>
+                        <h1>Megan Dooley-Zahr</h1>
                         <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/MZahr2710" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/m-zahr" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="http://qa.linkedin.com/in/mjzahr" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                        </ul>
+                        <h3>Web &amp; Wordpress Developer</h3>
+                        
+                        
                     </div>
                 </div>
 
@@ -111,178 +107,201 @@
 
     <!-- Page Content -->
 
-    <div class="content-section-a">
+    <section id="about">
 
-        <div class="container">
+        <div class="content-section-a">
 
-            <div class="row">
+            <div class="container">
 
-                <section id="about">
+                <div class="row">
+            
+                    <div class="col-lg-5 col-sm-6">
+                        <hr class="section-heading-spacer">
+                            <div class="clearfix"></div>
+                                <h2 class="section-heading">Grab a cup of coffee, pull up a chair, and let's get to know one another. </h2>
 
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Grab a cup of coffee, pull up a chair, and let's get to know one another. </h2>
+                                <p class="lead">I am a wife to my husband, mother to our beautiful daughter and Golden Retriever, addict of coffee, lover of travel, experimenter of cooking, eager learner, dedicated web developer, Wordpress manipulator, and passionate for all things knitting. I am stubborn, a perfectionist, a creative mind, and refuse to back down when challenges arise. Professionally, I developed a reputation for quality, thorough, concise work where obstacles are met with solutions. I am milestone and deadline driven and see to beat target dates not meet them. I am not afraid to say no or ask questions and thrive on challenges; I believe honesty and full-disclosure create healthy productive work environments.</p>
 
-                    <p class="lead">I am a 30-something wife to my husband, mother to our beautiful daughter and Golden Retriever, addict of coffee, lover of travel, experimenter of cooking, eager learner, dedicated web developer, Wordpress manipulator, and passionate for all things kintting. I am stubborn, a perfectionist, a creative mind, and refuse to back down when challenges arise. Professionally, I developed a reputation for quality, thorough, concise work where obstacles are met with solutions. I am milestone and deadline driven and seek to beat target dates not meet them. I am not afraid to say no or ask questions and thrive on challenges; I believe honesty and full-disclosure create healthy productive work environments.</p>
+                    </div>
+
+                    <!--Image-->
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6" id="padding">
+                        <img id="coffeeTable" class="img-responsive" src="img/Optimized-coffeetable.jpg" alt="Coffee Table">
+                    </div>
 
                 </div>
-
-                <!--Image-->
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6" id="padding">
-                    <img id="coffeeTable" class="img-responsive" src="img/coffeetable.jpg" alt="Coffee Table">
-                </div>
-
-                </section>
 
             </div>
-
+            <!-- Close container -->
         </div>
-        <!-- Close container -->
-    </div>
-    <!--End Content Section A-->
+        <!--End Content Section A-->
 
-    <div class="content-section-b">
+    </section><!--closes section about-->
 
-        <div class="container">
+    <!--Begin Section Services-->
+    <section id="services">
 
-            <div class="row">
+        <div class="content-section-b">     
 
-                <section id="services">
+            <div class="container">
 
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <div class="row">                
 
-                    <hr class="section-heading-spacer">
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+                        <hr class="section-heading-spacer">
+                            <div class="clearfix"></div>
+                                <h2 class="section-heading">Some of my technical skills.</h2>
 
-                    <div class="clearfix"></div>
+                                <p class="lead"> Formerly, the Information Systems Security Manager and Cyber Security Analyst, I decided to indulge a secret longing of mine by learning to code. Captivated by the mysticism I felt web development possessed, intimidation prevented me from pursuing any training until I discovered <a href="http://www.skillcrush.com">Skillcrush</a>. They provide an on-line training environment where I have conquered, flourished, and excelled. Now I have confidently expanded my skill set to include HTML, CSS, JavaScript, jQuery, Ruby, Bootstrap, Git, and pursuing Wordpress.</p>
 
-                    <h2 class="section-heading">Some of my technical skills.</h2>
+                    </div>
 
-                    <p class="lead"> Formerly, the Information Systems Security Manager and Cyber Security Analyst, I decided to indulge a secret longing of mine by learning to code. Captivated by the mysticism I felt web development possessed, intimidation prevented me from pursuing any training until I discovered <a href="http://www.skillcrush.com">Skillcrush</a>. They provide an online training environment where I have conquered, flourished, and excelled. Now I have confidently expanded my skillset to include HTML, CSS, JavaScript, jQuery, Ruby, Bootstrap, Git, and pursuring Wordpress.</p>
+                    <!--Image-->
+                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+
+                        <img id="computer" class="img-responsive" src="img/Optimized-computer.jpg" alt="Computer">
+                    </div>
 
                 </div>
 
-               <!--Image-->
-
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-
-                    <img id="computer" class="img-responsive" src="img/computer.jpg" alt="Computer">
-                </div>
-
-                </section>
             </div>
-
-        </div>
         <!-- /.container -->
 
-    </div>
-    <!-- End Section B-->
+        </div>
 
-    <!--Begin Section A for Static Contact Form-->
-       
-<div class="content-section-a">
+    </section><!-- End Section Services-->
 
-    <div class="container">
-    
-        <div class="row">
-        
-            <section id="contact">
-    
-                <div class="col-lg-5 col-sm-6">
-            
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Contact Form</h2>
-            
-                        <form class="form-horizontal" role="form" method="post" action="index.php">
-    
-                            <div class="form-group">
-                                <label for="name" class="col-md-4 control-label">Name</label>
-                                    <div class="col-md-6">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="First &amp; Last Name" value= "<?php echo htmlspecialchars($_POST['name']); ?>" >  
-                                            <?php echo "<p class='text-danger'>$errName"; ?>
-                                    </div>
-                            </div>
+    <!--Begin Section C Portfolio-->
+    <section id="portfolio">
 
-                  <div class="form-group">
-                    <label for="email" class="col-md-4 control-label">Email</label>
-                      <div class="col-md-6">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
-                        <?php echo "<p class='text-danger'>$errEmail</p>";?>
-                      </div>
-                  </div>
+        <div class="content-section-c">
 
-                  <div class="form-group">
-                    <label for="message" class="col-md-4 control-label">Message</label>
-                      <div class="col-md-6">
-                        <textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
-                        <?php echo"<p class='text-danger'>$errMessage</p>";?>
-                      </div>
-                  </div>
+            <div class="container">
 
-                  <div class="form-group">
-                    <label for="human" class="col-md-4 control-label">2 + 3 = ?</label>
-                      <div class="col-md-6">
-                        <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-                        <?php echo "<p class='text-danger>$errHuman</p>";?>
-                      </div>
-                  </div>
+                <div class="row">
 
-                  <div class="form-group">
-                    <div class="col-md-6">
-                      <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary pull-right">
+                    <div class="col-lg-5 col-sm-6">
+                        <hr class="section-heading-spacer">
+                            <div class="clearfix"></div>
+                                <h2 class="section-heading">Portfolio</h2>
+
                     </div>
-                  </div>
 
+                                    <!--Temp Location-->
+                                    <div class="col-lg-5 col-lg-offset-2 col-sm-6" id="padding">
 
-              <div class="form-group">
-                <div class="col-sm-10 col-sm-offset-2">
-                  <?php echo $result; ?>
+                                        <a href="https://rubyweatherapp.herokuapp.com/" target="_blank"><img id="rubyWeatherApp" class="img-responsive" src="img/Optimized-rubyWeatherApp.jpg" alt="Screen Shot of Ruby Weather App"/></a>                              
+                                     </div>
+
+                    
+
                 </div>
-              </div>
-            </form>
 
-            <!--Image-->
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6" id="padding">
-                    <img id="coffeeTable" class="img-responsive" src="img/Optimized-TypewriterI.jpg" alt="Coffee Table">
-                </div>
-    </section>
-    </div>
-  </div>
-</div>
+            </div>
 
-<!-- Footer -->
+        </div>
+
+    </section><!--End Section C Portfolio-->
+
+    <!--Begin Section D Contact-->   
+    <section id="contact">
+
+        <div class="content-section-d">
+  
+            <div class="container">
+    
+                <div class="row">
+        
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+                        <hr class="section-heading-spacer">
+                            <div class="clearfix"></div>
+                                <h2 class="section-heading">Contact Me</h2>
+
+                                    <ul class="intro-social-buttons">
+                           
+                                        <li id="socialButtons">
+                                            <a href="https://github.com/m-zahr" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                                        </li>
+
+                                        <li id="socialButtons">
+                                            <a href="http://qa.linkedin.com/in/mjzahr" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                                        </li>
+
+                                         <li id="socialButtons">
+                                            <a href="https://twitter.com/MZahr2710" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                                        </li>
+
+                                        <li id="socialButtons">
+                                            <a href="mailto:megan@seraphinaknits.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-envelope-o fa-fw"></i> <span class="network-name">Email</span></a>
+                                        </li>
+
+                                    </ul>
+                    </div><!--Closes col-lg-5 col-sm-6-->                        
+                    <!--Image-->
+                    <div class="col-lg-5 col-sm-pull-6  col-sm-6" id="padding">
+                        <img id="typewriter" class="img-responsive" src="img/Optimized-TypewriterI.jpg" alt="Typewriter">
+                    </div>
+                
+                </div><!--Closes Row-->
+
+            </div><!--Closes container-->
+
+        </div><!--Closes content section d-->
+    
+    </section><!--Closes section a-->
+
+    <!-- Footer -->
     <footer>
+        
         <div class="container">
+            
             <div class="row">
+                
                 <div class="col-lg-12">
+                    
                     <ul class="list-inline">
+                        
                         <li>
                             <a href="#home">Home</a>
                         </li>
+                        
                         <li class="footer-menu-divider">&sdot;</li>
+                        
                         <li>
                             <a href="#about">About</a>
                         </li>
+                        
                         <li class="footer-menu-divider">&sdot;</li>
+                        
                         <li>
                             <a href="#services">Services</a>
                         </li>
+                        
                         <li class="footer-menu-divider">&sdot;</li>
+
+                        <li>
+                            <a href="#portfolio" id="portfolioHidden">Portfolio</a>
+                        </li>
+                        
+                        <li class="footer-menu-divider">&sdot;</li>
+
                         <li>
                             <a id="contact" >Contact</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; MJDesignZ 2015. All Rights Reserved</p>
+
+                    <p class="copyright text-muted small">Copyright &copy; MJDevelopZ 2015. All Rights Reserved</p>
+
                 </div>
+
             </div>
+
         </div>
+
     </footer>
 
-<!--JavaScript Files-->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/smoothscroll.js"></script>
-<script src="app.js"></script>
+    <!--JavaScript Files-->
+    <script src="js/app.js"></script>
 
 
 
