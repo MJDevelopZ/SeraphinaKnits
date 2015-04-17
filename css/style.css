@@ -68,6 +68,10 @@ h6 {
     padding-top: 5%;
 }
 
+#LP{
+    padding-top: 5%;
+}
+
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
